@@ -3,7 +3,8 @@ body, html, .container-fluid {
     font-size: 100%;
     margin: 0%;
     padding: 0.2%;
-    margin-left:0.35%
+    margin-left:0.35%;
+    font-family: "Berthold Akzidenz Grotesk BE Li";
 }
 .purple{
     background-color: #673274
@@ -29,4 +30,19 @@ body, html, .container-fluid {
 .nav-bar-right{
     right: 0%;
     position: absolute;   
+}
+.button1{
+    height: 5.52%;	width:19.24%;
+    position: absolute;
+    margin-left: 29.65%;
+    margin-top: 25.17%;
+    color: white; 
+}
+.button2{
+    height: 5.52%;	width: 13.89%;
+    position: absolute;
+    margin-left: 52.57%;
+    margin-top: 25.17%;
+    color: white;
+        
 }
