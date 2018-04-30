@@ -8,6 +8,10 @@ import Box from '../../assets/Box.png';
 import Gears from '../../assets/Gears.png';
 import Cycle from '../../assets/Cycle.png';
 import Megaphone from '../../assets/Megaphone.png';
+import piñas from '../../assets/Layer16.png';
+import pina2 from '../../assets/pina2.png';
+import pina3 from '../../assets/pina3.png';
+import pina4 from '../../assets/pina4.png';
 
 class StatusReport extends React.Component {
   constructor(props) {
@@ -19,16 +23,6 @@ class StatusReport extends React.Component {
   }
 
   render() {
-    const style1 = {
-      backgroundColor: 'white',
-    };
-    const style2 = {
-      backgroundColor: 'blue',
-    };
-    const style3 = {
-      backgroundColor: 'yellow',
-    };
-
     return (
       <div className="container-fluid">
         <Header />
@@ -46,7 +40,6 @@ class StatusReport extends React.Component {
         </div>
         <div
           className="row col-md-12 col-xs-12 col-lg-12"
-          style={style1}
         >
           <div className="about-us-box">
             <h1 className="about-us-title">Sobre Nosotros</h1>
@@ -91,45 +84,77 @@ class StatusReport extends React.Component {
               </div>
               <div className="gears-caption">
                 <span className="">
-              Desarrollo
-              Integral de todas
-              las áreas de la
-              compañía
+                  Desarrollo
+                  Integral de todas
+                  las áreas de la
+                  compañía
                 </span>
               </div>
               <div className="cycle-caption">
                 <span className="">
-              Innovación
-              Constante
+                  Innovación
+                  Constante
                 </span>
               </div>
               <div className="megaphone-caption">
                 <span className="">
-              Visión de Futuro
+                  Visión de Futuro
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="row col-md-12 col-xs-12 col-lg-12"
-          style={style2}
-        >Star product here
+          className="row col-md-12 col-xs-12 col-lg-12 bg-star"
+        >
+          <div className="start-product">
+            <h1 className="start-product-title pina-container">Nuestro Producto Estrella</h1>
+            <p className="start-product-text">
+            Desde hace m&aacute;s de 50 a&ntilde;os,
+              la Pi&ntilde;a ha sido en Costa Rica
+               una de las fuentes m&aacute;s
+                fuertes de ingreso para el sector
+                 agrario. En sus inicios toda la
+                  producci&oacute;n se destinaba
+                   para el consumo nacional como
+                    fruta fresca y para la elaboraci&oacute;n
+                     de jugos, pulpas y mermeladas.
+                      Los a&ntilde;os acumulados de experiencia
+                       abren las puertas a nuevas oportunidades,
+                        y es en la segunda etapa de los a&ntilde;os
+                         80&rsquo;s cuando con la variedad conocida
+                          como Cayenna Lisa se dan los primeros pasos
+                           de exportaci&oacute;n.<br />Con el paso de
+                            los a&ntilde;os y la apertura de nuevos mercados
+                             mundiales se exporta variedad Champaca y para
+                              satisfacci&oacute;n de los consumidores m&aacute;s
+                               exigentes en el 2001
+                                la calidad Golden se posiciona
+                                como la preferida.
+            </p>
+            <p className="start-product-text">Contamos con planta de
+               producci&oacute;n y procesamiento
+                propia, adem&aacute;s de nuestro
+                 propio terreno de cultivo en el
+                  cual mimamos cada pi&ntilde;a,
+                   una a una, para ofrecer un excelente
+                    producto de calidad inmejorable.
+            </p>
+            <button className="button-pina">Conocer todos los productos</button>
+          </div>
+          <div className="pina-container"><img src={piñas} className="pinas-png" alt="ribbon" /></div>
         </div>
         <div
-          className="col-md-6 col-xs-6 col-lg-6"
-          style={style3}
-        >description goes here
+          className="row col-md-12 col-xs-12 col-lg-12 bg-star"
+        >
+          <img src={pina2} className="pina2" alt="pineaple" />
+          <img src={pina3} className="pina3" alt="pineaple2" />
+          <img src={pina4} className="pina4" alt="pineaple3" />
         </div>
         <div
-          className="col-md-6 col-xs-6 col-lg-6"
-          style={style2}
-        >pictures here
-        </div>
-        <div
-          className="row col-md-12 col-xs-12 col-lg-12"
-          style={style3}
-        >Other 3 pictures here
+          className="row col-md-12 col-xs-12 col-lg-12 footer"
+        >
+          <h4 className="copyright"> Tierra Nuestra Latina © 2016</h4>
         </div>
       </div>
     );

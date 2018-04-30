@@ -6,6 +6,16 @@ body, html, .container-fluid {
     margin-left:0.35%;
     font-family: "Berthold Akzidenz Grotesk BE Li";
 }
+.nav-margin{
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+}
+.len-left{
+    margin-left:4%
+}
+.cart-left{
+   right: 4%!important
+}
 .purple{
     background-color: #673274
 }
@@ -80,8 +90,65 @@ body, html, .container-fluid {
     color: white;
         
 }
+.button-pina{
+    height: 2.52%;	width: 32.31%;
+    color: #673274;
+    background-color: transparent; 
+    font-family: "Berthold Akzidenz Grotesk BE Li";
+    font-size: 18px;
+    border: solid;
+    border-color: #673274;
+    border-radius: 3%;
+    margin-left: 36.56%;
+    margin-top: 5%;
+}
+.bg-star {
+    background-color: #EBEBEB;
+    height: 43.33%;
+    width: 99%;
+    display: -webkit-box;
+    margin-left: 0.15%;
+}
+.start-product{
+    height: 18.84%;	width: 38.61%;
+    margin-left: 7.08%;
+    margin-right: 5.28%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.start-product-title{
+    color: #000000;	font-family: "Berthold Akzidenz Grotesk BE Li";	font-size: 29px; text-align: center;
+}
+.start-product-text{
+    color: #000000;	font-family: "Berthold Akzidenz Grotesk BE Li";	font-size: 20px;
+}
+.pina-container{
+    width: 100%;
+    height: 100%;
+}
+.pina2{
+    height: 14.49%;
+    width: 33.19%;
+    margin-left: -0.3%;
+}
+.pina3{
+    height: 14.49%;
+    width: 33.19%;
+    margin-left: -66.7%;
+}
+.pina4{
+    height: 14.49%;
+    width: 33.19%;
+    margin-left: -133.08%;
+}
 /*Icons and captions*/
-
+.pinas-png{
+    position: absolute;
+    height: 75.84%;
+    width: 43.38%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 .ribbon-png {	    
     height: 3.12%;
     width: 2.99%;
@@ -103,6 +170,7 @@ body, html, .container-fluid {
 .icons-caption{
     display: flex;
     margin-top: -1%;
+    line-height: 1.1;
 }
 .ribbon-caption{
     color: #000000;	font-family: "Berthold Akzidenz Grotesk BE Li";	font-size: 20px; text-align: center;
@@ -135,3 +203,5 @@ body, html, .container-fluid {
     height: 1.79%;	width: 4.86%;
     margin-left: 9.5%;
 }
+.footer {	height: 11.97%;	width: 100.9%;	background-color: #095963;}
+.copyright {	height: 0.64%;	width: 14.44%;	color: #FFFFFF;	font-family: "Berthold Akzidenz Grotesk BE Li";	font-size: 17px; text-align: center;}

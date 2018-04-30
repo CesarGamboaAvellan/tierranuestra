@@ -4,12 +4,12 @@ import Language from '../../../assets/Language.png';
 
 const header = () => (
   <div
-    className="row col-md-12 col-xs-12 col-lg-12"
+    className="row col-md-12 col-xs-12 col-lg-12 nav-margin"
   >
     <nav className="navbar navbar-expand-lg navbar-light bg-light nav-bar-alig">
-      <img src={Language} alt="shopcart" />
+      <img src={Language} className="len-left"alt="shopcart" />
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto nav-bar-right">
+        <ul className="navbar-nav mr-auto nav-bar-right cart-left">
           <li className="nav-item active">
             <a
               className="nav-link"
