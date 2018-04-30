@@ -72,6 +72,43 @@ class StatusReport extends React.Component {
               <img src={Cycle} className="cycle-png" alt="Cycle" />
               <img src={Megaphone} className="megaphone-png" alt="Megaphone" />
             </div>
+            <div className="about-us-box about-is-icons no-margin icons-caption">
+              <div className="ribbon-caption">
+                <span className="">Comercio Justo</span>
+              </div>
+              <div className="graph-caption">
+                <span className="">Sostenibilidad en la
+              Cadena de Valor y
+                  <br />Procesos Productivos
+                </span>
+              </div>
+              <div className="box-caption">
+                <span className="">Altos Estándares
+              de Cultivo, Producción,
+              Selección, Empaque,
+              Embarque y Venta
+                </span>
+              </div>
+              <div className="gears-caption">
+                <span className="">
+              Desarrollo
+              Integral de todas
+              las áreas de la
+              compañía
+                </span>
+              </div>
+              <div className="cycle-caption">
+                <span className="">
+              Innovación
+              Constante
+                </span>
+              </div>
+              <div className="megaphone-caption">
+                <span className="">
+              Visión de Futuro
+                </span>
+              </div>
+            </div>
           </div>
         </div>
         <div
