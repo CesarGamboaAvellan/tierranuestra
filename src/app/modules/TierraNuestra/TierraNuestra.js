@@ -108,7 +108,7 @@ class StatusReport extends React.Component {
           className="row col-md-12 col-xs-12 col-lg-12 bg-star"
         >
           <div className="start-product">
-            <h1 className="start-product-title pina-container">Nuestro Producto Estrella</h1>
+            <h1 className="start-product-title">Nuestro Producto Estrella</h1>
             <p className="start-product-text">
             Desde hace m&aacute;s de 50 a&ntilde;os,
               la Pi&ntilde;a ha sido en Costa Rica
@@ -142,14 +142,12 @@ class StatusReport extends React.Component {
             </p>
             <button className="button-pina">Conocer todos los productos</button>
           </div>
-          <div className="pina-container"><img src={piñas} className="pinas-png" alt="ribbon" /></div>
-        </div>
-        <div
-          className="row col-md-12 col-xs-12 col-lg-12 bg-star"
-        >
-          <img src={pina2} className="pina2" alt="pineaple" />
-          <img src={pina3} className="pina3" alt="pineaple2" />
-          <img src={pina4} className="pina4" alt="pineaple3" />
+          <div className="pinas"><img src={piñas} className="" alt="" /></div>
+          <div className="row col-md-12">
+            <img src={pina2} className="pina2" alt="" />
+            <img src={pina3} className="pina3" alt="" />
+            <img src={pina4} className="pina4" alt="" />
+          </div>
         </div>
         <div
           className="row col-md-12 col-xs-12 col-lg-12 footer"
